@@ -1,0 +1,61 @@
+
+Switch Statement:
+
+> When a variable has a list of same types of values- we can use Switch statement.
+
+Like, Days, Month, Colors, 
+
+
+> A switch statement allows a variable to be tested for equality against a list of values. 
+Each value is called a case, and the variable being switched on is checked for each case.
+
+> The body of a switch statement is known as a switch block. A statement in the switch block can be labeled with one or more case or 
+
+default labels. The switch statement evaluates its expression, then executes all statements that follow the matching case label.
+
+
+Rules:
+
+* The variable used in a switch statement can only be integers, convertable integers (byte, short, char), strings and enums.
+
+* When the variable being switched on is equal to a case, the statements following that case will execute until a break statement is reached.
+
+
+
+SYNTAX:
+
+switch(expression){
+
+case1: 
+
+statement;
+break;
+
+case 2:
+
+statement;
+break;
+
+}
+
+
+
+OR 
+
+switch(expression){    
+case value1:    
+ //code to be executed;    
+ break;  //optional  
+case value2:    
+ //code to be executed;    
+ break;  //optional 
+
+}
+
+
+The default keyword specifies some code to run if there is no case match.
+
+
+
+
+
